@@ -41,10 +41,7 @@ def oldest_customer
   oldest_customer
 end
 
-def best_tipper(name, yrs_experience)
-  best_tipper.each {|best_tip| best_tip > 0}
-    self.best_tip.meal
-end 
+
 end 
 
     

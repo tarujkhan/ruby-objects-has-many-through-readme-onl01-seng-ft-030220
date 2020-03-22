@@ -45,5 +45,6 @@ def best_tipper(name, yrs_experience)
   best_tipper.each do {|best_tip| best_tip > 0}
     best_tip
 end 
+end 
 
     

@@ -40,6 +40,10 @@ def oldest_customer
   end 
   oldest_customer
 end
+
+def best_tipper
+  if customer.tip > 0 
+    
 end 
 
     

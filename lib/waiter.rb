@@ -24,7 +24,11 @@ def new_meal(customer, total, tip=0)
 end 
 
 def best_tipper(name, yrs_experience)
-  best_tipper.each {|best_tip| best_tip > 0}
-    customer.best_tip.meal(name, yrs_experience)
+   best_tipped_meal = meals.max do |meal_a, meal_b|
+    meal_a.tip <=> meal_b.tip
+  end
+ 
+  best_tipped_meal.customer
+end
 end 
 end
